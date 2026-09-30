@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.todo-container {
+  max-width: 600px;
+}
+
+
+/* 完了したTODO */
+.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+
+/* TODO */
+.todo-item {
+  transition: 0.2s;
+}
+
+
+/* マウスを乗せたとき */
+.todo-item:hover {
+  background-color: #f8f9fa;
+}
+
+
+/* TODOタイトル */
+.todo-title {
+  word-break: break-word;
+}
+
+
+/* 削除ボタン */
+.delete-btn {
+  margin-left: 10px;
+}
